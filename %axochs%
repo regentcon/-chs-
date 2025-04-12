@@ -45,6 +45,29 @@ end,
 })
 
 local Button = Tab:CreateButton({
+   Name = "모든 아이템 가져오기",
+   Callback = function()
+local toolFolder = workspace:FindFirstChild("Tools")
+if toolFolder then
+    for _, tool in pairs(toolFolder:GetChildren()) do
+        if tool:IsA("Tool") then
+            tool.Parent = game.Players.LocalPlayer.Backpack
+        end
+    end
+end
+
+end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "모든 아이템 가져오기",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Tower-Slap-Tower-Works-Other-Slap-Gamep*-Games-too-34092"))()
+
+end,
+})
+
+local Button = Tab:CreateButton({
    Name = "무적(E홀드)",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/madmad7070/mujck/refs/heads/main/da"))()
