@@ -54,7 +54,7 @@ end,
 local Button = Tab:CreateButton({
    Name = "칼로 다죽이기(칼 꺼내기 Z,X,C,V)",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/regentcon/awdawdasd/refs/heads/main/awdasdawdasd))()
 end,
 })
 
