@@ -60,7 +60,7 @@ end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "모든 아이템 가져오기",
+   Name = "오토 슬랩",
    Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Tower-Slap-Tower-Works-Other-Slap-Gamep*-Games-too-34092"))()
 
