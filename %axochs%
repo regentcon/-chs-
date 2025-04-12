@@ -45,6 +45,20 @@ end,
 })
 
 local Button = Tab:CreateButton({
+   Name = "AK47",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47", true))()
+end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "칼로 다죽이기(칼 꺼내기 Z,X,C,V)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47", true))()
+end,
+})
+
+local Button = Tab:CreateButton({
    Name = "모든 아이템 가져오기",
    Callback = function()
 local toolFolder = workspace:FindFirstChild("Tools")
