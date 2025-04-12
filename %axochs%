@@ -52,7 +52,7 @@ end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "AK47",
+   Name = "검 모드",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/regentcon/awdawdasd/refs/heads/main/awdasdawdasd"))()
 end,
